@@ -1,0 +1,9 @@
+name: Jean and Mireille
+markdown: kramdown
+
+gems:
+  - jekyll-maps
+
+maps:
+  google:
+    api_key: 
