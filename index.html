@@ -21,36 +21,22 @@ title: Jean and Mireille
     <script>
       function initMap() {
         var uluru = {lat: 34.022715, lng: 35.650994};
+	var uluru2 = {lat: 34.115490, lng: 35.649464};
+	var ref = {lat: 34.053380, lng: 35.642379};
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 10,
-          center: uluru
+          center: ref
         });
         var marker = new google.maps.Marker({
           position: uluru,
           map: map
         });
-      }
-    </script>
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAG0as4m9T03xgKCHgSOErJ6V6omfM6R2E&callback=initMap">
-    </script>
-	  
-    <h3>Location 2</h3>
-    <div id="map"></div>
-    <script>
-      function initMap() {
-        var uluru = {lat: 34.022715, lng: 35.650994};
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 10,
-          center: uluru
-        });
-        var marker = new google.maps.Marker({
-          position: uluru,
+	 var marker = new google.maps.Marker({
+          position: uluru2,
           map: map
         });
       }
     </script>
-	  
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAG0as4m9T03xgKCHgSOErJ6V6omfM6R2E&callback=initMap">
     </script>
